@@ -12,7 +12,7 @@ cursor = connection.cursor()
 initiate_db()
 
 
-api = '8056937450:AAGiDrgxJroFEBkyTQT2ck3oTKTiIhRKnvI'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
